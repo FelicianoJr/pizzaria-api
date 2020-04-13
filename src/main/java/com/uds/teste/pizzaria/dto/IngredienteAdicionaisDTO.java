@@ -4,8 +4,7 @@ public class IngredienteAdicionaisDTO extends AbstractDTO {
 
 	private Integer Id;
 	private String nome;
-		
-	public String getNome() {
+		public String getNome() {
 		return nome;
 	}
 
