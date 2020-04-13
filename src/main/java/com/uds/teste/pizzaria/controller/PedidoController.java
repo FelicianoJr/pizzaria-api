@@ -38,7 +38,6 @@ public class PedidoController {
 		});
 
 		pizzariaProvider.calcularPedido();
-
 		final PedidoDTO pedido = pizzariaProvider.getPedidoDTO();
 		return pedido;
 	}
