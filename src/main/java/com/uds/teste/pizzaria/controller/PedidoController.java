@@ -36,6 +36,7 @@ public class PedidoController {
 		ingredientesAdicionais.forEach(ingrediente -> {
 			pizzariaProvider.adicionar(ingrediente.getNome());
 		});
+
 		pizzariaProvider.calcularPedido();
 
 		final PedidoDTO pedido = pizzariaProvider.getPedidoDTO();
