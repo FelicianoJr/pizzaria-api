@@ -11,7 +11,6 @@ F extends AbstractFindException> {
 	T salvar(T entity) throws S;
 
 	T buscar(Integer id) throws F;
-
 	void atualizar(T entity);
 	
 }
